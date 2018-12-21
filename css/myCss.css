@@ -36,7 +36,7 @@ html, body{
 	border: 2px solid black;
 	border-radius: 10px;
 	background-color: rgba(0,0,0,.7);
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Raleway', sans-serif;
 }
 .contactPic{
 	background-image: url("../images/dark.jpg");
@@ -54,4 +54,19 @@ html, body{
 	margin-top: 50px;
 	font-size: 30px;
 	text-align: center;
+}
+.gallery .container > h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Dancing Script', cursive;
+	background: #ff8533;
+	background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.galleryDivider{
+	margin: 10px;
 }
