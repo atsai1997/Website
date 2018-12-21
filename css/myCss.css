@@ -70,3 +70,8 @@ html, body{
 .galleryDivider{
 	margin: 10px;
 }
+@media only screen and (max-width: 600px){
+	.homePic{
+		background-image: url("../images/taiwan.jpg");
+	}
+}
