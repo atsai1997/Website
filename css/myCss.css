@@ -72,6 +72,20 @@ html, body{
 }
 @media screen and (max-width: 1000px){
 	.homePic{
-		background-image: url("../images/taiwan.jpg");
+		background-image: none;
+	}
+	.subPic{
+		background-image: none;
+	}
+	.sect{
+		background-image: url("../images/pw_maze_black.png");
+		background-size: auto;
+		background-repeat: repeat;
+		background-attachment: scroll;
+	}
+	.subPic .col-md-7 > h2{
+		border: 0px;
+		border-radius: 0;
+		background-color: rgba(0,0,0,0);
 	}
 }
