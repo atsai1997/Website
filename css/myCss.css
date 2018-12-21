@@ -55,6 +55,45 @@ html, body{
 	font-size: 30px;
 	text-align: center;
 }
+.snowboardPic{
+	background-image: url("../images/snow.jpg");
+}
+.snowboardPic .col-md-5 > h1{
+	color:white;
+	font-size: 40px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.snowboardPic .col-md-5 > h2{
+	color:white;
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+.kendamaPic{
+	background-image: url("../images/japan.jpg");
+}
+.kendamaPic .col-md-5 > h1{
+	font-size: 40px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+}
+.kendamaPic .col-md-5 > h2{
+	color: white;
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+.fortnitePic{
+	background-image: url("../images/keyboard.jpg");
+}
+.fortnitePic .col-md-5 > h1{
+	font-size: 40px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+}
+.fortnitePic .col-md-5 > h2{
+	color: white;
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+}
 .gallery .container > h1{
 	text-align: center;
 	font-size: 50px;
@@ -121,8 +160,8 @@ html, body{
 .arrow {
   position: relative;
   text-align:center;
-	top: 55%;
 	font-size: 50px;
+	top: 55%;
 }
 
 .bounce {
@@ -136,6 +175,18 @@ html, body{
 		background-image: url("../images/curls.png");
 	}
 	.subPic{
+		background-image: url("../images/curls.png");
+	}
+	.contactPic{
+		background-image: url("../images/footer_lodyas.png");
+	}
+	.snowboardPic{
+		background-image: url("../images/curls.png");
+	}
+	.kendamaPic{
+		background-image: url("../images/curls.png");
+	}
+	.fortnitePic{
 		background-image: url("../images/curls.png");
 	}
 	.sect{
