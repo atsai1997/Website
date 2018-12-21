@@ -1,0 +1,57 @@
+html, body{
+	height:100%;
+}
+.homePic{
+	background-image: url("../images/frontPage.jpg");
+}
+.homePic > h1{
+	margin: 0 auto;
+	font-size: 100px;
+	font-family: 'Dancing Script', cursive;
+	color: #f2f2f2;
+}
+.homePic > h2{
+	margin: 0 auto;
+	font-size: 30px;
+	font-family: 'Aleo', serif;
+	color: #f2f2f2;
+}
+.sect{
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.subPic{
+	background-image: url("../images/bokeh.jpg");
+}
+.subPic .col-md-7 > h1{
+	color:white;
+	font-size: 40px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.subPic .col-md-7 > h2{
+	color: #f2f2f2;
+	font-size: 25px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,.7);
+	font-family: 'Indie Flower', cursive;
+}
+.contactPic{
+	background-image: url("../images/dark.jpg");
+}
+.contactPic .col-md-12 > h1{
+	margin: 0 auto;
+	font-size: 50px;
+	color: white;
+	font-family: 'Muli', sans-serif;
+}
+.contactPic .container{
+	top:30%;
+}
+.contactPic .col-md-4 > ul{
+	margin-top: 50px;
+	font-size: 30px;
+	text-align: center;
+}
