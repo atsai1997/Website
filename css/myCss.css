@@ -133,13 +133,12 @@ html, body{
 
 @media screen and (max-width: 1000px){
 	.homePic{
-		background-image: none;
+		background-image: url("../images/curls.png");
 	}
 	.subPic{
-		background-image: none;
+		background-image: url("../images/curls.png");
 	}
 	.sect{
-		background-image: url("../images/curls.png");
 		background-size: auto;
 		background-repeat: repeat;
 		background-attachment: scroll;
