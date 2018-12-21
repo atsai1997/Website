@@ -274,15 +274,3 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
     font-size: 1.52em;
   }
 }
-
-@media screen and (max-width:320px) {
-  .no-csstransforms .cn-wrapper {
-    width: 15.15px;
-    margin-left: -7.5em;
-  }
-
-  .no-csstransforms .cn-wrapper li {
-    height: 3em;
-    width: 3em;
-  }
-}
